@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>affichageContact</class>
+ <widget class="QWidget" name="affichageContact">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>666</width>
+    <height>459</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Edition du profil</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>651</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="tabPosition">
+    <enum>QTabWidget::North</enum>
+   </property>
+   <property name="tabShape">
+    <enum>QTabWidget::Rounded</enum>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <property name="tabsClosable">
+    <bool>false</bool>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <widget class="QWidget" name="tab_profil">
+    <attribute name="title">
+     <string>Profil</string>
+    </attribute>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>631</width>
+       <height>321</height>
+      </rect>
+     </property>
+     <layout class="QFormLayout" name="formLayout_4">
+      <item row="0" column="1">
+       <widget class="QLabel" name="labelPhoto">
+        <property name="text">
+         <string>Pas de photo</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="nomLabel_4">
+        <property name="text">
+         <string>Nom</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="nomLineEdit_4"/>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="prenomLabel_4">
+        <property name="text">
+         <string>Prénom</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="prenomLineEdit_4"/>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="ageLabel_4">
+        <property name="text">
+         <string>Age</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QSpinBox" name="ageSpinBox_4"/>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="entrepriseLabel_4">
+        <property name="text">
+         <string>Entreprise</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLineEdit" name="entrepriseLineEdit_4"/>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="mailLabel_4">
+        <property name="text">
+         <string>Mail</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QLineEdit" name="mailLineEdit_4"/>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLabel" name="telephoneLabel_4">
+        <property name="text">
+         <string>Téléphone</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QLineEdit" name="telephoneLineEdit_4"/>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="urlPhotoLabel">
+        <property name="text">
+         <string>urlPhoto</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="1">
+       <widget class="QLineEdit" name="urlPhotoLineEdit"/>
+      </item>
+      <item row="8" column="1">
+       <widget class="QPushButton" name="pushButton_modif_4">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>Modifier</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="1">
+       <widget class="QLabel" name="label_dateModif">
+        <property name="font">
+         <font>
+          <italic>true</italic>
+          <bold>false</bold>
+          <underline>false</underline>
+          <kerning>true</kerning>
+         </font>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_interactions">
+    <attribute name="title">
+     <string>Interactions</string>
+    </attribute>
+    <widget class="QWidget" name="horizontalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>531</width>
+       <height>401</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_tri">
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QRadioButton" name="radioButtonAlphabetique">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>A-Z</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">buttonGroupTri</string>
+            </attribute>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="radioButton_datemodif">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>Date Modification</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">buttonGroupTri</string>
+            </attribute>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QDateEdit" name="dateDebut">
+          <property name="date">
+           <date>
+            <year>2023</year>
+            <month>1</month>
+            <day>1</day>
+           </date>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QDateEdit" name="dateFin">
+          <property name="date">
+           <date>
+            <year>2023</year>
+            <month>1</month>
+            <day>1</day>
+           </date>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QListView" name="listViewInteractions"/>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEditInteraction"/>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_buttonI">
+          <item>
+           <widget class="QPushButton" name="pushButtonAddInteraction">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>Ajout</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="BmodifInteraction">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>Modifier</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="BsuppInteraction">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>Supprimer</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <layout class="QFormLayout" name="formLayout_6">
+          <item row="0" column="0">
+           <widget class="QLabel" name="todoLabel_4">
+            <property name="text">
+             <string>Todo</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="todoLineEdit_4"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="DateTodo">
+            <property name="text">
+             <string>Date</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QDateEdit" name="dateTodoDateEdit">
+            <property name="dateTime">
+             <datetime>
+              <hour>19</hour>
+              <minute>0</minute>
+              <second>0</second>
+              <year>2023</year>
+              <month>12</month>
+              <day>8</day>
+             </datetime>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QPushButton" name="BAjoutTodo">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>Ajout Todo</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="verticalSpacer">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="frameShape">
+           <enum>QFrame::WinPanel</enum>
+          </property>
+          <property name="text">
+           <string>Liste todos</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroupTri"/>
+ </buttongroups>
+</ui>

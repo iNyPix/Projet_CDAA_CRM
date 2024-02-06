@@ -1,0 +1,6 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="i18n">
+<file alias="CRM_en_GB.qm">/home/thomas/Documents/Cours_uB/Semestre_5/CDAA/Projet/CRM/.qm/CRM_en_GB.qm</file>
+<file alias="CRM_ar_AE.qm">/home/thomas/Documents/Cours_uB/Semestre_5/CDAA/Projet/CRM/.qm/CRM_ar_AE.qm</file>
+</qresource>
+</RCC>

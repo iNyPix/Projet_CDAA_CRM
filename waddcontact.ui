@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>wAddContact</class>
+ <widget class="QWidget" name="wAddContact">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>729</width>
+    <height>289</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Ajouter un contact</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>721</width>
+     <height>283</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QFormLayout" name="mainLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="nomLabel">
+        <property name="text">
+         <string>Nom</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="nomLineEdit"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="prenomLabel">
+        <property name="text">
+         <string>Prenom</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="prenomLineEdit"/>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="ageLabel">
+        <property name="text">
+         <string>Age</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="ageLineEdit"/>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="entrepriseLabel">
+        <property name="text">
+         <string>Entreprise</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="entrepriseLineEdit"/>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="mailLabel">
+        <property name="text">
+         <string>Mail</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLineEdit" name="mailLineEdit"/>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="telephoneLabel">
+        <property name="text">
+         <string>Telephone</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QLineEdit" name="telephoneLineEdit"/>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLabel" name="urlPhotoLabel">
+        <property name="text">
+         <string>urlPhoto</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QLineEdit" name="urlPhotoLineEdit"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <property name="sizeConstraint">
+       <enum>QLayout::SetMinimumSize</enum>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="pushButton_Annuler">
+        <property name="text">
+         <string>Annuler</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_Valider">
+        <property name="text">
+         <string>Valider</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
